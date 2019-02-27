@@ -1,28 +1,29 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {Component, useContext, useEffect} from 'react';
+import Map from './Components/Map';
+import Stats from './Components/Stats';
+import LayerPicker from './Components/LayerPicker';
+import {Store} from './Store';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+export default function App(props) {
+  const {state, dispatch} = useContext(Store);
+  useEffect(()=>{
+    fetch('/suffolk_county_wide_form.geojson').then(r=>r.json()).then((result)=>{
+        dispatch({
+            type:'UPDATE_FEATURES',
+            payload: result
+        })
+        dispatch({
+            type:"UPDATE_CANDIDATES",
+            payload: Object.keys(result.features[0].properties).filter(a=> !['Void','region','district_no'].includes(a))
+        })
+    })
+  },[])
+  return (
+    <div className="App">
+      <Map />
+      <Stats />
+      <LayerPicker />
+    </div>
+  );
 }
-
-export default App;
