@@ -8,7 +8,7 @@ import './App.css';
 export default function App(props) {
   const {state, dispatch} = useContext(Store);
   useEffect(()=>{
-    fetch('/suffolk_county_wide_form.geojson').then(r=>r.json()).then((result)=>{
+    fetch('suffolk_county_wide_form.geojson').then(r=>r.json()).then((result)=>{
         dispatch({
             type:'UPDATE_FEATURES',
             payload: result
