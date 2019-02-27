@@ -4,15 +4,15 @@ self.__precacheManifest = [
     "url": "/SuffolkCountyElectionMap/static/js/runtime~main.5125f5da.js"
   },
   {
-    "revision": "e58403e6208b62ede540",
-    "url": "/SuffolkCountyElectionMap/static/js/main.e58403e6.chunk.js"
+    "revision": "add4dde79396520dc247",
+    "url": "/SuffolkCountyElectionMap/static/js/main.add4dde7.chunk.js"
   },
   {
     "revision": "47fb228bee98d3104e25",
     "url": "/SuffolkCountyElectionMap/static/js/2.47fb228b.chunk.js"
   },
   {
-    "revision": "e58403e6208b62ede540",
+    "revision": "add4dde79396520dc247",
     "url": "/SuffolkCountyElectionMap/static/css/main.494c1bbe.chunk.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/SuffolkCountyElectionMap/static/css/2.f881401b.chunk.css"
   },
   {
-    "revision": "a5cb22cea57dd7672d56ddbc9931722e",
+    "revision": "eb6958ed5890215efeefd163bfc7303c",
     "url": "/SuffolkCountyElectionMap/index.html"
   }
 ];

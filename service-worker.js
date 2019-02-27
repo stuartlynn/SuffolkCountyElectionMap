@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/SuffolkCountyElectionMap/precache-manifest.d71fc96fca10da3bf7c3eaa02201205a.js"
+  "/SuffolkCountyElectionMap/precache-manifest.1a2f146bff005e499125644cbbf4906a.js"
 );
 
 workbox.clientsClaim();
