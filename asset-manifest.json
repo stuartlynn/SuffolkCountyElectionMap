@@ -1,15 +1,15 @@
 {
-  "main.css": "/static/css/main.494c1bbe.chunk.css",
-  "main.js": "/static/js/main.04f582c9.chunk.js",
-  "main.js.map": "/static/js/main.04f582c9.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.fdfcfda2.js",
-  "runtime~main.js.map": "/static/js/runtime~main.fdfcfda2.js.map",
-  "static/css/2.f881401b.chunk.css": "/static/css/2.f881401b.chunk.css",
-  "static/js/2.47fb228b.chunk.js": "/static/js/2.47fb228b.chunk.js",
-  "static/js/2.47fb228b.chunk.js.map": "/static/js/2.47fb228b.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.9f05175e463c5aaadf966c771f0e1137.js": "/precache-manifest.9f05175e463c5aaadf966c771f0e1137.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/2.f881401b.chunk.css.map": "/static/css/2.f881401b.chunk.css.map",
-  "static/css/main.494c1bbe.chunk.css.map": "/static/css/main.494c1bbe.chunk.css.map"
+  "main.css": "/SuffolkCountyElectionMap/static/css/main.494c1bbe.chunk.css",
+  "main.js": "/SuffolkCountyElectionMap/static/js/main.3c80ba8d.chunk.js",
+  "main.js.map": "/SuffolkCountyElectionMap/static/js/main.3c80ba8d.chunk.js.map",
+  "runtime~main.js": "/SuffolkCountyElectionMap/static/js/runtime~main.5125f5da.js",
+  "runtime~main.js.map": "/SuffolkCountyElectionMap/static/js/runtime~main.5125f5da.js.map",
+  "static/css/2.f881401b.chunk.css": "/SuffolkCountyElectionMap/static/css/2.f881401b.chunk.css",
+  "static/js/2.47fb228b.chunk.js": "/SuffolkCountyElectionMap/static/js/2.47fb228b.chunk.js",
+  "static/js/2.47fb228b.chunk.js.map": "/SuffolkCountyElectionMap/static/js/2.47fb228b.chunk.js.map",
+  "index.html": "/SuffolkCountyElectionMap/index.html",
+  "precache-manifest.7bb7f7cc0bedc3433bd154aa642b4306.js": "/SuffolkCountyElectionMap/precache-manifest.7bb7f7cc0bedc3433bd154aa642b4306.js",
+  "service-worker.js": "/SuffolkCountyElectionMap/service-worker.js",
+  "static/css/2.f881401b.chunk.css.map": "/SuffolkCountyElectionMap/static/css/2.f881401b.chunk.css.map",
+  "static/css/main.494c1bbe.chunk.css.map": "/SuffolkCountyElectionMap/static/css/main.494c1bbe.chunk.css.map"
 }
